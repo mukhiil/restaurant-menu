@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Lobster" ;
+  src: url("fonts/Courgette/Courgette-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Sac";
+  src: url("fonts/Sacramento/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url("fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+}
+
+body {
+
+  background-color: black;
+  margin: 0px;
+  padding: 0px; 
+  font-family: Lobster;
+}
+
+.nav {
+
+  height: 100px;
+  width: 100%;
+  background-color:rgb(0, 0, 0);
+  top: 0px;
+  position: sticky;
+  overflow: hidden;
+  color: rgb(255, 247, 232);
+  transition-property: background-color;
+  transition-duration: 1s;
+
+}
+
+.nav:hover {
+
+  background-color: rgb(255, 247, 232);
+  color: black;
+}
+
+.nav ul li {
+
+  
+  list-style: none;
+  display: inline-block;
+  margin: 15 30px;
+  font-size: 25px;
+  
+
+}
+
+.nav ul li a{
+
+  text-decoration: none;
+  color:  rgb(255, 247, 232);
+  text-transform: uppercase;
+  transition-property: color;
+  transition-duration: 1s;
+
+}
+
+.nav ul li a:hover {
+  
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+
+.main-pic {
+  height: 1500px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("pancakes.jpg");
+  background-size: cover;
+  
+}
+
+
+.greeting {
+  height: 900px;
+  width: 100%;
+  color:  rgb(255, 247, 232);
+  text-align: center;
+  font-size: 50px;
+  overflow: hidden;
+  transition-property: color;
+  transition-duration: 0.5s;
+  
+  
+}
+
+.greeting:hover {
+
+  color: rgb(209, 144, 90);
+
+}
+
+.greeting h1 {
+  margin-top: 400px;
+  
+}
+
+.container-one {
+
+  width: 100%;
+  height: 1000px;
+  background-color:  rgb(0, 0, 0);
+  position: relative;
+
+}
+
+.left-one {
+
+  position: absolute;
+  bottom: 5%;
+  float: left;
+  margin-left: 1.5%;
+  height: 90%;
+  width: 47%;
+  background-image: url("smoothie-bowl.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+
+}
+
+.right-one {
+
+  
+  position: absolute;
+  bottom: 5%;
+  margin-left: 50%;
+  width: 48.5%;
+  height: 90%;
+  background-image: url("smoothie-bowl.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+
+}
+
+.container-two {
+
+  width: 100%;
+  height: 900px;
+  background-color:  rgb(255, 247, 232);
+  position: relative;
+  overflow: hidden;
+
+}
+
+.left-two {
+
+  bottom: 2.5%;
+  float: left;
+  margin-left: 1.5%;
+  height: 95%;
+  width: 47%;
+  background-color: rgb(255, 247, 232);
+  position: absolute;
+  text-align: center;
+
+
+}
+
+.right-two-container {
+
+  bottom: 2.5%;
+  margin-left: 50%;
+  width: 48.5%;
+  height: 95%;
+  position: absolute;
+  overflow: hidden;
+  
+}
+.right-two {
+  
+  width: 100%;
+  height: 100%;
+  background-image: url("pancakes-3.jpg");
+  background-size: cover;
+  background-position: center 75%;
+  position: absolute;
+  transition: transform .5s ease;
+  max-width: 100%;
+  max-height: 100%;
+  
+
+}
+
+.right-two:hover {
+
+  transform: scale(1.1);
+
+}
+
+.dine {
+
+  color: black;
+  font-family: Sac;
+  font-size: 66px;
+  margin-top: 170px;
+}
+
+
+.address {
+
+  font-family: Gothic;
+  color: rgb(209, 144, 90);
+  margin-bottom: 50px;
+}
+
+.days {
+
+  font-family: Gothic;
+  margin-top: 30px;
+
+}
+
+.container-three {
+
+  width: 100%;
+  height: 1200px;
+  background-color: rgb(255, 247, 232);
+  position: relative;
+}
+
+.picture-three {
+
+  height: 97%;
+  width: 97%;
+  margin-left: 1.5%;
+  bottom: 0;
+  position: absolute;
+  background-size: cover;
+  background-image: url("breakfast.jpg");
+  background-position-y: 50%;
+  align-items: center;
+
+
+}
+
+.menu-container {
+
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  color:  rgb(255, 247, 232);
+  background-color: rgba(0, 0, 0, 0.219);
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+.our-menu {
+
+  font-family: Sac;
+  font-size: 70px;
+  color:  rgb(255, 247, 232) ;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+.our-menu:visited {
+
+color:  rgb(255, 247, 232) ;
+}
+
+
+.menu-container:hover {
+
+  background-color:  rgb(255, 247, 232) ;
+  color: black;
+}
+
+.menu-container:hover .our-menu {
+
+  color: black;
+
+}
+

@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Lobster" ;
+  src: url("fonts/Courgette/Courgette-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Sac";
+  src: url("fonts/Sacramento/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url("fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+}
+
+
+body {
+
+  background-color: black;
+  margin: 0px;
+  padding: 0px; 
+  font-family: Lobster;
+}
+
+.nav {
+
+  height: 100px;
+  width: 100%;
+  background-color:rgb(0, 0, 0);
+  top: 0px;
+  overflow: hidden;
+  color: rgb(255, 247, 232);
+  transition-property: background-color;
+  transition-duration: 1s;
+
+}
+
+.nav:hover {
+
+  background-color: rgb(255, 247, 232);
+  color: black;
+}
+
+.nav ul li {
+
+  
+  list-style: none;
+  display: inline-block;
+  margin: 15 30px;
+  font-size: 25px;
+  
+
+}
+
+.nav ul li a{
+
+  text-decoration: none;
+  color:  rgb(255, 247, 232);
+  text-transform: uppercase;
+  transition-property: color;
+  transition-duration: 1s;
+
+}
+
+.nav ul li a:hover {
+  
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+.nav ul li a:visited {
+  
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+.container-one {
+
+  width: 97%;
+  height: 1200px;
+  margin-left: 1.5%;
+  background-image: url("menu.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.picture-one {
+
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.164);
+  color:rgb(255, 247, 232) ;
+  transition-property: color, background-color;
+  transition-duration: 1s;
+}
+
+.picture-one:hover {
+
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+
+
+}
+
+.picture-one h1 {
+
+  font-family: Lobster;
+  font-size: 125px;
+
+}
+
+
+.container-two {
+
+  width: 100%;
+  height: 1700px;
+  background-color:black ;
+  overflow:hidden;
+
+
+}
+
+.left-two {
+
+  bottom: 0%;
+  width:47.5%;
+  height: 97%;
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+  background-color:rgb(255, 247, 232) ;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+.right-two {
+
+  bottom: 1.5%;
+  margin-left: 51%;
+  margin-top: 1.5%;
+  width: 47.5%;
+  height: 97%;
+  background-color:rgb(255, 247, 232) ;
+  overflow: hidden;
+  text-align: center;
+}
+
+.right-two-spacer {
+
+  width: 100%;
+  height: 50px;
+}
+.category {
+
+  font-size: 70px;
+  font-family: Sac;
+
+}
+
+.food {
+
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: Gothic;
+}
+
+.price {
+
+  margin-bottom: 80px;
+}
